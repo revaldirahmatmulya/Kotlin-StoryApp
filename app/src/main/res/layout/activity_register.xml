@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/previewImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_login"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="9dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_input"
+        android:hint="@string/hint_name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        />
+
+    <com.revaldi.storyapp.CustomView.CustomEmailEditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="9dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_input"
+        android:hint="Email" />
+
+    <com.revaldi.storyapp.CustomView.CustomPasswordEditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="9dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_input"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+</LinearLayout>

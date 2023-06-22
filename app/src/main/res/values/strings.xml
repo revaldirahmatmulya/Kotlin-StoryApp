@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="camera_x">Camera X</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="validation_password">Password harus berisi minimal 8 character</string>
+    <string name="validation_email">Masukkan email dengan benar</string>
+    <string name="hint_name">Name</string>
+    <string name="title_activity_story_maps">StoryMapsActivity</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="normal_type">Maps</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="retry">Retry</string>
+    <string name="myLocation">My Location</string>
+</resources>
